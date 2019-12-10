@@ -1,0 +1,34 @@
+{
+  "name": "@vedam/svomp",
+  "version": "1.0.0",
+  "description": "collection of frequently used svelte-components",
+  "module": "index.mjs",
+  "dependencies": {
+    "lazysizes": "^5.2.0-beta1",
+    "smoothscroll-polyfill": "^0.4.4"
+  },
+  "devDependencies": {
+    "prettier": "^1.19.1",
+    "prettier-plugin-svelte": "^0.7.0",
+    "svelte": "^3.16.1"
+  },
+  "keywords": [
+    "svelte",
+    "template"
+  ],
+  "files": [
+    "components",
+    "util",
+    "index.mjs"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vedam/svomp.git"
+  },
+  "author": "vedam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vedam/svomp/issues"
+  },
+  "homepage": "https://github.com/vedam/svomp#readme"
+}
