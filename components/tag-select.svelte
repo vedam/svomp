@@ -4,7 +4,7 @@
   	tag-select – 1.0.4
   ---------------------------------------------
   */
-  import Icon from './icon.svelte'
+  import Use from './svg/use.svelte'
 
   export let tags = []
   export let icon = 'tag'
@@ -24,7 +24,7 @@
 
 <div class="tags flex-center">
   <h5 class="flash">
-    <Icon name="{icon}" />
+    <Use name="{icon}" />
   </h5>
   {#each tags as tag (tag)}
     <a

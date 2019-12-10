@@ -8,7 +8,7 @@
   */
   import { onMount } from 'svelte'
   import { Link } from 'svelte-routing'
-  import Use from '~/components/svg/use'
+  import Use from './svg/use.svelte'
 
   export let data
   export let open = false
