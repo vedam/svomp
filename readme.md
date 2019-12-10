@@ -1,6 +1,6 @@
-#### svomponents – 1.0.0
+#### svomp – 1.0.0
 
-Collection of frequently used svelte-components  
+Collection of frequently used **sv**elte-c**omp**onents  
 **⚠️ heavily under construction at the moment**
 
 ---
