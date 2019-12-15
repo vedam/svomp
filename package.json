@@ -1,6 +1,6 @@
 {
   "name": "@vedam/svomp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "collection of frequently used svelte-components",
   "module": "index.mjs",
   "dependencies": {
@@ -10,6 +10,8 @@
   "devDependencies": {
     "prettier": "^1.19.1",
     "prettier-plugin-svelte": "^0.7.0",
+    "prism-svelte": "^0.4.6",
+    "prismjs": "^1.17.1",
     "svelte": "^3.16.1"
   },
   "keywords": [
