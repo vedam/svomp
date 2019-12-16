@@ -1,49 +1,47 @@
 <script>
   /*
   ---------------------------------------------
-    social links – 1.0.4
-    usage: pass array [
-      "mailto:office@vedam.de",
-      "https://twitter.com/vedamart",
-      "https://www.linkedin.com/in/achimvedam/",
-      "https://github.com/vedam"
-    ]
+    social links – 1.0.5
   ---------------------------------------------
   */
   import Use from './svg/use.svelte'
+  export let items = [
+    { name: 'mail', href: 'mailto:office@vedam.de' },
+    { name: 'twitter', href: 'https://twitter.com/vedamart' },
+    { name: 'github', href: 'https://github.com/vedam' },
+    { name: 'linkedin', href: 'https://www.linkedin.com/in/achimvedam/' },
+  ]
 
-  export let clas = ''
-  export let items = []
+  export let mail_prefix = 'Send me an Email'
+  export let link_prefix = 'Watch me on '
+  
+  let props = i => ({
+    title: (i.name !== 'mail')
+      ? `${link_prefix} ${i.name}`
+      : `${mail_prefix}`,
+    
+    // destructuring - if is external add these
+    ...(i.name !== 'mail' && {
+      target: '_blank',
+      rel:'noreferrer'
+    })
+  })
 </script>
 
 <!-- -------------------------------------- -->
 
-<div class="{clas}">
-  {#each items as link (link)}
-    {#if link.includes('mailto')}
-      <a href="{link}" title="Send me an Email">
-        <Use name="mail" />
-      </a>
-    {:else if link.includes('twitter')}
-      <a href="{link}" target="_blank" title="Auf Twitter" rel="noreferrer">
-        <Use name="twitter" />
-      </a>
-    {:else if link.includes('github')}
-      <a href="{link}" target="_blank" title="Auf Github" rel="noreferrer">
-        <Use name="github" />
-      </a>
-    {:else if link.includes('linkedin')}
-      <a href="{link}" target="_blank" title="Auf Linkedin" rel="noreferrer">
-        <Use name="linkedin" />
-      </a>
-    {/if}
+<div>
+  {#each items as i (i)}
+    <a href={i.href} {...props(i)} >
+      <Use name="icn-{i.name}" />
+    </a>
   {/each}
 </div>
 
 <!-- -------------------------------------- -->
 
 <style>
-  a { margin: 0 0.8rem 0 0 }
+  a { margin: 0 .8rem 0 0 }
 
   a:hover, .active {
     color: var(--flash);

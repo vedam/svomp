@@ -48,9 +48,7 @@
 <!-- -------------------------------------- -->
 
 <style>
-  :host {
-    height: 100%;
-  }
+  :host { height: 100% }
 
   .panel {
     position: fixed;
@@ -61,9 +59,7 @@
     z-index: 30;
   }
 
-  .panel label {
-    cursor: pointer;
-  }
+  .panel label { cursor: pointer }
 
   :global(.debug *) {
     outline: 1px solid hsla(304, 37%, 53%, 0.1);
@@ -78,6 +74,7 @@
   }
 
   :global(.debug) .horizontal {
+    position: absolute;
     width: 100%;
     height: 0.1rem;
     left: 0;

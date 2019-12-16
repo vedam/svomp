@@ -1,18 +1,18 @@
 <script>
   /*
   ---------------------------------------------
-  	tag-select – 1.0.4
+  	tag-select – 1.0.5
   ---------------------------------------------
   */
   import Use from './svg/use.svelte'
 
   export let tags = []
-  export let icon = 'tag'
+  export let icon = 'icn-tag'
   export let selected
 
   const handleSelect = tag => _ => {
     // This is a bit hacky, but until I'll find a better solution...
-    if (icon === 'image') {
+    if (icon === 'icn-image') {
       selected = tag
     } else {
       selected = tag === selected ? '' : tag

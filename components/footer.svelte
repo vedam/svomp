@@ -1,26 +1,14 @@
 <script>
   /*
   ---------------------------------------------
-  	footer – 1.0.4
+  	footer – 1.0.5
   ---------------------------------------------
   */
+  export let style = ''
 </script>
 
 <!-- -------------------------------------- -->
 
-<footer class="flex-center">
+<footer class="w-full" {style}>
   <slot />
 </footer>
-
-<!-- -------------------------------------- -->
-
-<style>
-  footer {
-    justify-content: space-between;
-    margin: 0 auto;
-    padding: 6rem 0 8rem;
-    max-width: var(--page-max-w);
-    background: var(--back-transparent);
-    font: var(--code) var(--font-ui);
-  }
-</style>

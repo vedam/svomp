@@ -1,4 +1,4 @@
-#### svomp – 1.0.1
+#### svomp – 1.0.2
 
 Collection of frequently used **sv**elte-c**omp**onents  
 **⚠️ heavily under construction at the moment**
@@ -23,6 +23,10 @@ npm i -D @vedam/svomp
 ---
 
 ##### changelog
+
+**1.0.2**
+- fixes for debug, footer, socials, tag-select
+
 
 **1.0.1**
 
