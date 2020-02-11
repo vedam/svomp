@@ -1,4 +1,4 @@
-#### svomp – 1.0.2
+#### svomp – 1.0.3
 
 Collection of frequently used **sv**elte-c**omp**onents  
 **⚠️ heavily under construction at the moment**
@@ -19,3 +19,7 @@ npm i -D @vedam/svomp
 ##### todo
 
 - add lightweight cookie-consent respecting the new GDPR-Guidelines
+
+---
+
+[**changelog**](changelog.md)
