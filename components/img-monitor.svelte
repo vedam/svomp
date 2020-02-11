@@ -1,7 +1,7 @@
 <script>
   /*
   ---------------------------------------------
-  	monitor – 1.0.4
+  	monitor – 1.0.5
   ---------------------------------------------
   */
   import Image from './lazyload/image.svelte'
@@ -26,7 +26,7 @@
 </div>
 
 {#if multiple}
-  <TagSelect icon="image" bind:selected tags="{names}" />
+  <TagSelect icon="icn-image" bind:selected tags="{names}" />
 {/if}
 
 <!-- -------------------------------------- -->
@@ -43,26 +43,26 @@
     background: linear-gradient(
         105deg,
         black 65%,
-        rgba(255, 255, 255, 0.15) 65%,
+        rgba(255, 255, 255, .15) 65%,
         transparent 85%
       ),
       linear-gradient(0deg, black 0%, black 100%);
-    box-shadow: 0 1.2rem 0.6rem -0.6rem rgba(60, 60, 60, 0.9);
+    box-shadow: 0 1.2rem .6rem -.6rem rgba(60, 60, 60, .9);
   }
 
   .stack {
-    background: rgba(255, 255, 255, 0.2);
+    background: rgba(255, 255, 255, .2);
     max-height: 100%;
     overflow-y: scroll;
   }
 
   .overlay {
     position: sticky;
-    box-shadow: inset 0 0.2rem 0.4rem 0.1rem rgba(0, 0, 0, 0.25);
+    box-shadow: inset 0 .2rem .4rem .1rem rgba(0, 0, 0, .25);
     background: linear-gradient(
         105deg,
         transparent 67%,
-        rgba(255, 255, 255, 0.1) 67%,
+        rgba(255, 255, 255, .1) 67%,
         transparent 87%
       ),
       linear-gradient(0deg, transparent 0%, transparent 100%);

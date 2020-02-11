@@ -1,7 +1,7 @@
 <script>
   /*
   ---------------------------------------------
-    social links – 1.0.5
+    social links – 1.0.6
   ---------------------------------------------
   */
   import Use from './svg/use.svelte'
@@ -12,6 +12,7 @@
     { name: 'linkedin', href: 'https://www.linkedin.com/in/achimvedam/' },
   ]
 
+  export let style
   export let mail_prefix = 'Send me an Email'
   export let link_prefix = 'Watch me on '
   
@@ -30,7 +31,7 @@
 
 <!-- -------------------------------------- -->
 
-<div>
+<div {style}>
   {#each items as i (i)}
     <a href={i.href} {...props(i)} >
       <Use name="icn-{i.name}" />

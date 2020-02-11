@@ -1,7 +1,7 @@
 <script>
   /*
   ---------------------------------------------
-  	compare images – 1.0.4
+  	compare images – 1.0.5
   ---------------------------------------------
   */
   import Image from './lazyload/image.svelte'
@@ -69,7 +69,7 @@
     position: absolute;
     bottom: 0;
     padding: 2rem 1.6rem;
-    font: 300 1.3rem/1.7 var(--font-ui);
+    font: 300 1.2rem/1.7 var(--font-ui);
     color: white;
     opacity: 0.8;
     z-index: 3;

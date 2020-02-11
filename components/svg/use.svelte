@@ -1,15 +1,13 @@
 <script>
   /*
   ---------------------------------------------
-    svg-use element – 1.0.4
+    svg-use element – 1.0.5
     for frequently used svgs
     TODO – check if lazyloading icons could be an option:
     https://svelte.dev/repl/56b6ffd0d7134476b50a30b11e161570?version=3.4.2
     https://github.com/sveltejs/svelte/issues/640
   ---------------------------------------------
   */
-  // import { onMount } from 'svelte'
-
   export let clas = ''
   export let style = ''
   export let name = ''
@@ -33,10 +31,6 @@
 
   $: isIcon = name.includes('icn-')
   $: fill = isIcon && filled.includes(name) ? 'fill ' : 'stroke '
-
-  // onMount(_ => {
-    // console.log('debug svg-use | ', name, width, height)
-  // })
 </script>
 
 <!-- -------------------------------------- -->
@@ -50,7 +44,8 @@
 <style>
   svg {
     position: relative;
-    vertical-align: middle;
+    vertical-align: top;
+    /* vertical-align: middle; */
     fill: none;
     stroke: none;
     stroke-width: 1.5;
