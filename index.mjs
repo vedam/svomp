@@ -13,6 +13,5 @@ export { default as TagSelect } from './components/tag-select.svelte'
 
 // utils
 export { default as computed } from './util/computed.js'
-export { default as dom_to_comp } from './util/dom-to-component.js'
 export { default as scroll } from './util/smoothscroll.js'
 export { default as fx } from './util/fx.js'

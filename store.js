@@ -1,7 +1,7 @@
 /*
 -----------------------------------------------
   svomp store
-  more as an example here
+  thought more as an example here
   stores differ from project to project
 -----------------------------------------------
 */

@@ -2,6 +2,14 @@
 
 ---
 
+**1.0.4**
+
+- add changelog
+- updated components
+- delete deprecated (prism, dom-to-component)
+
+---
+
 **1.0.3**
 
 - add changelog

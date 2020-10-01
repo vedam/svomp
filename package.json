@@ -1,18 +1,16 @@
 {
   "name": "@vedam/svomp",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "collection of frequently used svelte-components",
   "module": "index.mjs",
   "dependencies": {
-    "lazysizes": "^5.2.0-beta1",
+    "lazysizes": "^5.2.2",
     "smoothscroll-polyfill": "^0.4.4"
   },
   "devDependencies": {
-    "prettier": "^1.19.1",
-    "prettier-plugin-svelte": "^0.7.0",
-    "prism-svelte": "^0.4.6",
-    "prismjs": "^1.17.1",
-    "svelte": "^3.16.1"
+    "prettier": "^2.1.2",
+    "prettier-plugin-svelte": "^1.4.0",
+    "svelte": "^3.29.0"
   },
   "keywords": [
     "svelte",
