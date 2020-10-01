@@ -1,6 +1,6 @@
 {
   "name": "@vedam/svomp",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "collection of frequently used svelte-components",
   "module": "index.mjs",
   "scripts": {
@@ -28,6 +28,7 @@
     "type": "git",
     "url": "git+https://github.com/vedam/svomp.git"
   },
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
   "author": "vedam",
   "license": "MIT",
   "bugs": {
