@@ -1,4 +1,4 @@
-#### svomp – 1.0.3
+#### svomp – 1.0.4
 
 Collection of frequently used **sv**elte-c**omp**onents  
 **⚠️ heavily under construction at the moment**

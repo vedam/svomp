@@ -3,6 +3,9 @@
   "version": "1.0.4",
   "description": "collection of frequently used svelte-components",
   "module": "index.mjs",
+  "scripts": {
+    "publish": "npm publish ./"
+  },
   "dependencies": {
     "lazysizes": "^5.2.2",
     "smoothscroll-polyfill": "^0.4.4"
