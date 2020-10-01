@@ -3,9 +3,6 @@
   "version": "1.0.5",
   "description": "collection of frequently used svelte-components",
   "module": "index.mjs",
-  "scripts": {
-    "publish": "npm publish ./"
-  },
   "dependencies": {
     "lazysizes": "^5.2.2",
     "smoothscroll-polyfill": "^0.4.4"
@@ -28,7 +25,9 @@
     "type": "git",
     "url": "git+https://github.com/vedam/svomp.git"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "author": "vedam",
   "license": "MIT",
   "bugs": {
