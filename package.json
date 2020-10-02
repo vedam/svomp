@@ -16,6 +16,8 @@
     "svelte",
     "template"
   ],
+  "author": "vedam",
+  "license": "MIT",
   "files": [
     "components",
     "util",
@@ -25,13 +27,11 @@
     "type": "git",
     "url": "git+https://github.com/vedam/svomp.git"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
-  "author": "vedam",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/vedam/svomp/issues"
   },
-  "homepage": "https://github.com/vedam/svomp#readme"
+  "homepage": "https://github.com/vedam/svomp#readme",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  }
 }
