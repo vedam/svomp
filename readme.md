@@ -1,3 +1,6 @@
+# I noticed it's not really helpful to split components to a separate repo, so this will be deprecated soon
+
+
 #### svomp – 1.0.4
 
 Collection of frequently used **sv**elte-c**omp**onents  
